@@ -1,0 +1,5 @@
+export { ReactComponent as Logo } from './logo.svg'
+export { ReactComponent as Person } from './person.svg'
+export { ReactComponent as Check } from './check.svg'
+export { ReactComponent as Chart } from './chart.svg'
+export { ReactComponent as StepperIcon } from './stepperIcon.svg'

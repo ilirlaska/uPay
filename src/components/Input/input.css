@@ -1,0 +1,39 @@
+.onboarding-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.onboarding-input {
+  padding: 0 0 5px 0;
+  border: 0;
+  border-bottom: 1px solid #8f8f9c;
+  width: 100%;
+  transition: all 0.5s;
+  color: #181c32;
+}
+
+.onboarding-input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.onboarding-input.error {
+  border-color: red;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+}
+
+.onboarding-input-label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #8f8f9c;
+}

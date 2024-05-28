@@ -1,0 +1,23 @@
+.onboarding-stepper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.onboarding-step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  padding-bottom: 10px;
+  height: 53px;
+  border-bottom: 3px solid #e6e4e4;
+  margin-right: 10px;
+}
+
+.onboarding-step-icon.selected {
+  border-color: black;
+}
+
+.onboarding-step-icon:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,23 @@
+.onboarding-button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.onboarding-button:focus {
+  outline: none;
+}
+
+.onboarding-button-primary {
+  background-color: black;
+  color: white;
+}
+.onboarding-button-primary:hover {
+  background-color: rgb(46, 46, 46);
+}
